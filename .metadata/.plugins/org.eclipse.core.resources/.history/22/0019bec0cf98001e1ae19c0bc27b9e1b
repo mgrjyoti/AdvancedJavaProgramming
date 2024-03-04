@@ -1,0 +1,8 @@
+package com.jspiders.springcoreannotation.main;
+
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan("com.jspiders.springcoreannotation")
+public class ProductMain {
+
+}

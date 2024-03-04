@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+	<bean class="com.jspiders.springcore.Beans.Costomer " name="costomer1">
+		<proprty name=" id" value="1" />
+		<proprty name="name " value="jyoti" />
+		<proprty name=" contact" value="880549021" />
+		<proprt name="products" >
+			<list>
+				<bean class="com.jspiders.springcore.Beans.Product " name="product1">
+				<proprty name=" id" value="1" />
+				<proprty name="name " value="v11" />
+				<proprty name="price " value="18000.00" />
+				</bean>
+				<bean class=" com.jspiders.springcore.Beans.Product" name="product2">
+				<proprty name="id " value="2" />
+				<proprty name="name " value="Roxc25pro" />
+				<proprty name="price " value="1600.00" />
+				</bean>
+			</list>
+		</proprt>
+	</bean>
+	
+	<bean class="com.jspiders.springcore.Beans.Costomer " name="costomer2">
+		<proprty name=" id" value="3" />
+		<proprty name="name " value="swati" />
+		<proprty name=" contact" value="980549021" />
+		<proprty name="products">
+		<list>
+			<bean class="com.jspiders.springcore.Beans.Product " name="product3">
+				<proprty name=" id" value="3" />
+				<proprty name="name " value="y11" />
+				<proprty name="price " value="19000.00" />
+			</bean>
+			<bean class=" com.jspiders.springcore.Beans.Product" name="product4">
+				<proprty name="id " value="4" />
+				<proprty name="name " value="narzo15pro" />
+				<proprty name="price " value="23000.00" />
+			</bean>
+		</list>
+		</proprty>
+	</bean>
+</beans>

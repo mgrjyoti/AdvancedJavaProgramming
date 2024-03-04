@@ -1,0 +1,12 @@
+package com.jspiders.springcore.Beans;
+
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class Mobile {
+
+	private int id;
+	private double price;
+	private String name;
+	
+}

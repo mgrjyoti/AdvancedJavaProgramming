@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+<bean class="com.jspiders.springcore.Beans.AdharCard" name="adharcard">
+	<propert name="id" value="1"/>
+	<propert name="adharNo" value="637144144339"/>
+</bean>
+<bean class="com.jspiders.springcore.Beans.Person" name="person">
+	<propert name="" value=""/>
+	<propert name="" value=""/>
+	<propert name="" value=""/>
+	<propert name="" value=""/>
+	<propert name="" value=""/>
+	<propert name="" value=""/>
+</bean>
+
+</beans>

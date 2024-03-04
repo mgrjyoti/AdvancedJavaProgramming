@@ -1,0 +1,8 @@
+package com.jspiders.springcore.main;
+
+public class CostomerMain {
+
+	public static void main(String[] args) {
+		
+	}
+}

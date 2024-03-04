@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans >
+
+<bean>
+	<proprty name="id " value= "1"/>
+	<proprty name=" name" value= "jyoti"/>
+	<proprty name=" email" value= "jyoti@gmail.com"/>
+	<proprty name="age " value= "22"/>
+</bean>
+<bean>
+	<proprty name="id " value= "2"/>
+	<proprty name=" name" value= "swati"/>
+	<proprty name="email " value= "swati@gmail.com"/>
+	<proprty name="age " value= "24"/>
+</bean>
+
+</beans>

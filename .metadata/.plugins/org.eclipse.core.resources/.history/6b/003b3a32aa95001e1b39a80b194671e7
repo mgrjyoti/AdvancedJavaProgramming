@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean class="com.jspiders.springcore.Beans.Team" name="team" >
+		<proprty name="id" value="1" />
+		<proprty name="name" value="ABC"/>
+	</bean>
+	<bean class="com.jspiders.springcore.Beans.Player" name="player1" >
+		<proprty name="id" value="1" />
+		<proprty name="name" value="jyoti"/>
+		<proprty name="email" value="jyotigamil.com"/>
+		<proprty name="age" value="22"/>
+		<proprty name="team" ref="team"></proprty>
+	</bean>
+	<bean class="com.jspiders.springcore.Beans.Player" name="player2" >
+		<proprty name="id" value="1" />
+		<proprty name="name" value="swati"/>
+		<proprty name="email" value="swatigamil.com"/>
+		<proprty name="age" value="24"/>
+		
+	</bean>
+</beans>

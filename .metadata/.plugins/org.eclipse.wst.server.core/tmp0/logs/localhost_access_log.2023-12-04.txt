@@ -1,0 +1,10 @@
+127.0.0.1 - - [04/Dec/2023:15:18:35 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [04/Dec/2023:15:20:26 +0530] "GET /studentManagementSystem/student.jsp HTTP/1.1" 200 1351
+127.0.0.1 - - [04/Dec/2023:15:20:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [04/Dec/2023:15:20:47 +0530] "POST /studentManagementSystem/student HTTP/1.1" 500 1417
+127.0.0.1 - - [04/Dec/2023:15:21:23 +0530] "POST /studentManagementSystem/student HTTP/1.1" 500 1538
+127.0.0.1 - - [04/Dec/2023:15:48:13 +0530] "GET /studentManagementSystem/UpdateStudent.jsp HTTP/1.1" 200 221
+127.0.0.1 - - [04/Dec/2023:15:48:21 +0530] "GET /studentManagementSystem/UpdateStudent.jsp HTTP/1.1" 200 221
+127.0.0.1 - - [04/Dec/2023:15:48:22 +0530] "GET /studentManagementSystem/UpdateStudent.jsp HTTP/1.1" 200 221
+127.0.0.1 - - [04/Dec/2023:15:48:57 +0530] "GET /studentManagementSystem/UpdateStudent.jsp HTTP/1.1" 200 221
+127.0.0.1 - - [04/Dec/2023:15:48:59 +0530] "GET /studentManagementSystem/UpdateStudent.jsp HTTP/1.1" 200 221

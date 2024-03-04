@@ -1,0 +1,12 @@
+127.0.0.1 - - [30/Nov/2023:16:12:10 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [30/Nov/2023:16:12:27 +0530] "GET /studentManagementSystem/Student HTTP/1.1" 404 786
+127.0.0.1 - - [30/Nov/2023:16:12:37 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320
+127.0.0.1 - - [30/Nov/2023:21:49:51 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [30/Nov/2023:21:51:29 +0530] "GET /studentManagementSyyem/student HTTP/1.1" 404 785
+127.0.0.1 - - [30/Nov/2023:21:51:30 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [30/Nov/2023:21:56:04 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320
+127.0.0.1 - - [30/Nov/2023:22:09:36 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [30/Nov/2023:22:09:42 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320
+127.0.0.1 - - [30/Nov/2023:22:09:44 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320
+127.0.0.1 - - [30/Nov/2023:22:12:34 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320
+127.0.0.1 - - [30/Nov/2023:22:12:35 +0530] "GET /studentManagementSystem/student HTTP/1.1" 500 1320

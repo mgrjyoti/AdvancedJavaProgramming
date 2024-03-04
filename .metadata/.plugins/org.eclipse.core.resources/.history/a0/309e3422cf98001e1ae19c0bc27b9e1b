@@ -1,0 +1,5 @@
+package com.jspiders.springcoreannotation.bean;
+
+public class Product {
+
+}

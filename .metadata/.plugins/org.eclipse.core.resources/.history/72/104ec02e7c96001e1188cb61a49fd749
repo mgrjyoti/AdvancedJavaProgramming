@@ -1,0 +1,18 @@
+package com.jspiders.springcoreannotation.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jspiders.springcoreannotation.bean.Mobile;
+import com.jspiders.springcoreannotation.config.StudentConfig;
+
+public class MobileMain {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext=new AnnotationConfigApplicationContext(StudentConfig.class);
+		Mobile mobile=(Mobile) applicationContext.getBean("mobile");
+		System.out.println(mobile);
+		((AnnotationConfigApplicationContext)applicationContext).close();
+
+	}
+}

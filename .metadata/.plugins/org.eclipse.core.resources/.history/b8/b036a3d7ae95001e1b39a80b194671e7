@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean class="com.jspiders.springcore.Beans.Product " name="product1">
+		<proprty name=" " value="" />
+		<proprty name=" " value="" />
+		<proprty name=" " value="" />
+	</bean>
+	<bean class=" com.jspiders.springcore.Beans.Product" name="product2">
+		<proprty name=" " value="" />
+		<proprty name=" " value="" />
+		<proprty name=" " value="" />
+	</bean>
+	
+</beans>

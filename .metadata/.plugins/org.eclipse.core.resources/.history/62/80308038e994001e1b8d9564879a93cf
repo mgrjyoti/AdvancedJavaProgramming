@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean class="com.jspiders.springcore.Beans.Company" name="company">
+		<proprty name="id" value="1" />
+		<proprty name="name" value="TCS" />
+		<proprty name="location" value="Pune" />
+		<proprty name="employees">
+			<list>
+				<bean class="com.jspiders.springcore.Beans.Employee" name="employee1">
+					<proprty name="id" value="1" />
+					<proprty name="name" value="Jyoti" />
+					<proprty name="email" value="jyotigmail.com" />
+					<proprty name="age" value="22" />
+				</bean>
+				<bean class="com.jspiders.springcore.Beans.Employee" name="employee1">
+					<proprty name="id" value="1" />
+					<proprty name="name" value="Jyoti" />
+					<proprty name="email" value="jyotigmail.com" />
+					<proprty name="age" value="22" />
+				</bean>
+			</list>	
+		</proprty>
+	</bean>
+
+
+</beans>

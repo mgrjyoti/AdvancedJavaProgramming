@@ -1,0 +1,5 @@
+package com.jspiders.springcoreannotation.config;
+
+public class StudentConfig {
+
+}

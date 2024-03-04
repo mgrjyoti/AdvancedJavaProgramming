@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+
+>
+<bean class="com.jspiders.springcore.Beans.AdharCard" name="adharcard">
+	<propert name="id" value="1"/>
+	<propert name="adharNo" value="637144144339"/>
+</bean>
+<bean class="com.jspiders.springcore.Beans.Person" name="person">
+	<propert name="id" value="1"/>
+	<propert name="name" value="jyoti"/>
+	<propert name="email" value="jyoti@gamil.com"/>
+	<propert name="address" value="pune"/>
+	<propert name="age" value="22"/>
+	<propert name="adharCard" value="adharcard"/>
+</bean>
+
+</beans>

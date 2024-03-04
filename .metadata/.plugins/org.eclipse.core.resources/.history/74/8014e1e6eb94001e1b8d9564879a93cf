@@ -1,0 +1,17 @@
+package com.jspiders.springcore.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.jspiders.springcore.Beans.Player;
+import com.jspiders.springcore.Beans.Team;
+
+public class TeamMain {
+
+	public static void main(String[] args) {
+		ApplicationContext applicationContext= new ClassPathXmlApplicationContext("PlayerConfig.xml");
+		Player player=(Player) applicationContext.getBean("player");
+		System.out.println(player);
+		((ClassPathXmlApplicationContext)applicationContext).close();
+	}
+}

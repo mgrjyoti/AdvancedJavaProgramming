@@ -1,0 +1,10 @@
+package com.jspiders.springcore.main;
+
+public class CompanyMain {
+
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}
